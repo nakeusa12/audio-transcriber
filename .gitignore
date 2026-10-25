@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.wav
+.DS_Store
+
+# rekaman & hasil transkrip tidak ikut repo (berisi data rapat)
+audio/*
+!audio/.gitkeep
+output/*
+!output/.gitkeep
